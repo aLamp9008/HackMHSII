@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BFA54B861CF0C7A40078A4D3"
+               BuildableName = "Hack MHS II.app"
+               BlueprintName = "Hack MHS II"
+               ReferencedContainer = "container:Hack MHS II.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BFA54B9A1CF0C7A40078A4D3"
+               BuildableName = "Hack MHS IITests.xctest"
+               BlueprintName = "Hack MHS IITests"
+               ReferencedContainer = "container:Hack MHS II.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BFA54BA51CF0C7A40078A4D3"
+               BuildableName = "Hack MHS IIUITests.xctest"
+               BlueprintName = "Hack MHS IIUITests"
+               ReferencedContainer = "container:Hack MHS II.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BFA54B861CF0C7A40078A4D3"
+            BuildableName = "Hack MHS II.app"
+            BlueprintName = "Hack MHS II"
+            ReferencedContainer = "container:Hack MHS II.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BFA54B861CF0C7A40078A4D3"
+            BuildableName = "Hack MHS II.app"
+            BlueprintName = "Hack MHS II"
+            ReferencedContainer = "container:Hack MHS II.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BFA54B861CF0C7A40078A4D3"
+            BuildableName = "Hack MHS II.app"
+            BlueprintName = "Hack MHS II"
+            ReferencedContainer = "container:Hack MHS II.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

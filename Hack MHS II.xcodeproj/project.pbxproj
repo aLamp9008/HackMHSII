@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA54B8B1CF0C7A40078A4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54B8A1CF0C7A40078A4D3 /* AppDelegate.swift */; };
+		BFA54B8D1CF0C7A40078A4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54B8C1CF0C7A40078A4D3 /* ViewController.swift */; };
+		BFA54B901CF0C7A40078A4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA54B8E1CF0C7A40078A4D3 /* Main.storyboard */; };
+		BFA54B921CF0C7A40078A4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA54B911CF0C7A40078A4D3 /* Assets.xcassets */; };
+		BFA54B951CF0C7A40078A4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */; };
+		BFA54BA01CF0C7A40078A4D3 /* Hack_MHS_IITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54B9F1CF0C7A40078A4D3 /* Hack_MHS_IITests.swift */; };
+		BFA54BAB1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BAA1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA54B9C1CF0C7A40078A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA54B7F1CF0C7A40078A4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA54B861CF0C7A40078A4D3;
+			remoteInfo = "Hack MHS II";
+		};
+		BFA54BA71CF0C7A40078A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA54B7F1CF0C7A40078A4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA54B861CF0C7A40078A4D3;
+			remoteInfo = "Hack MHS II";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA54B871CF0C7A40078A4D3 /* Hack MHS II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack MHS II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA54B8A1CF0C7A40078A4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA54B8C1CF0C7A40078A4D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA54B8F1CF0C7A40078A4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA54B911CF0C7A40078A4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA54B941CF0C7A40078A4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA54B961CF0C7A40078A4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA54B9B1CF0C7A40078A4D3 /* Hack MHS IITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack MHS IITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA54B9F1CF0C7A40078A4D3 /* Hack_MHS_IITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_MHS_IITests.swift; sourceTree = "<group>"; };
+		BFA54BA11CF0C7A40078A4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA54BA61CF0C7A40078A4D3 /* Hack MHS IIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack MHS IIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA54BAA1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_MHS_IIUITests.swift; sourceTree = "<group>"; };
+		BFA54BAC1CF0C7A40078A4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA54B841CF0C7A40078A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54B981CF0C7A40078A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54BA31CF0C7A40078A4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA54B7E1CF0C7A40078A4D3 = {
+			isa = PBXGroup;
+			children = (
+				BFA54B891CF0C7A40078A4D3 /* Hack MHS II */,
+				BFA54B9E1CF0C7A40078A4D3 /* Hack MHS IITests */,
+				BFA54BA91CF0C7A40078A4D3 /* Hack MHS IIUITests */,
+				BFA54B881CF0C7A40078A4D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA54B881CF0C7A40078A4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA54B871CF0C7A40078A4D3 /* Hack MHS II.app */,
+				BFA54B9B1CF0C7A40078A4D3 /* Hack MHS IITests.xctest */,
+				BFA54BA61CF0C7A40078A4D3 /* Hack MHS IIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA54B891CF0C7A40078A4D3 /* Hack MHS II */ = {
+			isa = PBXGroup;
+			children = (
+				BFA54B8A1CF0C7A40078A4D3 /* AppDelegate.swift */,
+				BFA54B8C1CF0C7A40078A4D3 /* ViewController.swift */,
+				BFA54B8E1CF0C7A40078A4D3 /* Main.storyboard */,
+				BFA54B911CF0C7A40078A4D3 /* Assets.xcassets */,
+				BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */,
+				BFA54B961CF0C7A40078A4D3 /* Info.plist */,
+			);
+			path = "Hack MHS II";
+			sourceTree = "<group>";
+		};
+		BFA54B9E1CF0C7A40078A4D3 /* Hack MHS IITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA54B9F1CF0C7A40078A4D3 /* Hack_MHS_IITests.swift */,
+				BFA54BA11CF0C7A40078A4D3 /* Info.plist */,
+			);
+			path = "Hack MHS IITests";
+			sourceTree = "<group>";
+		};
+		BFA54BA91CF0C7A40078A4D3 /* Hack MHS IIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA54BAA1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift */,
+				BFA54BAC1CF0C7A40078A4D3 /* Info.plist */,
+			);
+			path = "Hack MHS IIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA54B861CF0C7A40078A4D3 /* Hack MHS II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA54BAF1CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS II" */;
+			buildPhases = (
+				BFA54B831CF0C7A40078A4D3 /* Sources */,
+				BFA54B841CF0C7A40078A4D3 /* Frameworks */,
+				BFA54B851CF0C7A40078A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hack MHS II";
+			productName = "Hack MHS II";
+			productReference = BFA54B871CF0C7A40078A4D3 /* Hack MHS II.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA54B9A1CF0C7A40078A4D3 /* Hack MHS IITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA54BB21CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IITests" */;
+			buildPhases = (
+				BFA54B971CF0C7A40078A4D3 /* Sources */,
+				BFA54B981CF0C7A40078A4D3 /* Frameworks */,
+				BFA54B991CF0C7A40078A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA54B9D1CF0C7A40078A4D3 /* PBXTargetDependency */,
+			);
+			name = "Hack MHS IITests";
+			productName = "Hack MHS IITests";
+			productReference = BFA54B9B1CF0C7A40078A4D3 /* Hack MHS IITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA54BA51CF0C7A40078A4D3 /* Hack MHS IIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA54BB51CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IIUITests" */;
+			buildPhases = (
+				BFA54BA21CF0C7A40078A4D3 /* Sources */,
+				BFA54BA31CF0C7A40078A4D3 /* Frameworks */,
+				BFA54BA41CF0C7A40078A4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA54BA81CF0C7A40078A4D3 /* PBXTargetDependency */,
+			);
+			name = "Hack MHS IIUITests";
+			productName = "Hack MHS IIUITests";
+			productReference = BFA54BA61CF0C7A40078A4D3 /* Hack MHS IIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA54B7F1CF0C7A40078A4D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "alden lamp";
+				TargetAttributes = {
+					BFA54B861CF0C7A40078A4D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BFA54B9A1CF0C7A40078A4D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BFA54B861CF0C7A40078A4D3;
+					};
+					BFA54BA51CF0C7A40078A4D3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BFA54B861CF0C7A40078A4D3;
+					};
+				};
+			};
+			buildConfigurationList = BFA54B821CF0C7A40078A4D3 /* Build configuration list for PBXProject "Hack MHS II" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA54B7E1CF0C7A40078A4D3;
+			productRefGroup = BFA54B881CF0C7A40078A4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA54B861CF0C7A40078A4D3 /* Hack MHS II */,
+				BFA54B9A1CF0C7A40078A4D3 /* Hack MHS IITests */,
+				BFA54BA51CF0C7A40078A4D3 /* Hack MHS IIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA54B851CF0C7A40078A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA54B951CF0C7A40078A4D3 /* LaunchScreen.storyboard in Resources */,
+				BFA54B921CF0C7A40078A4D3 /* Assets.xcassets in Resources */,
+				BFA54B901CF0C7A40078A4D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54B991CF0C7A40078A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54BA41CF0C7A40078A4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA54B831CF0C7A40078A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA54B8D1CF0C7A40078A4D3 /* ViewController.swift in Sources */,
+				BFA54B8B1CF0C7A40078A4D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54B971CF0C7A40078A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA54BA01CF0C7A40078A4D3 /* Hack_MHS_IITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA54BA21CF0C7A40078A4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA54BAB1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA54B9D1CF0C7A40078A4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA54B861CF0C7A40078A4D3 /* Hack MHS II */;
+			targetProxy = BFA54B9C1CF0C7A40078A4D3 /* PBXContainerItemProxy */;
+		};
+		BFA54BA81CF0C7A40078A4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA54B861CF0C7A40078A4D3 /* Hack MHS II */;
+			targetProxy = BFA54BA71CF0C7A40078A4D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA54B8E1CF0C7A40078A4D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA54B8F1CF0C7A40078A4D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA54B941CF0C7A40078A4D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA54BAD1CF0C7A40078A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA54BAE1CF0C7A40078A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA54BB01CF0C7A40078A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hack MHS II/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-II";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA54BB11CF0C7A40078A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hack MHS II/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-II";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA54BB31CF0C7A40078A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hack MHS IITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-IITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack MHS II.app/Hack MHS II";
+			};
+			name = Debug;
+		};
+		BFA54BB41CF0C7A40078A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hack MHS IITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-IITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack MHS II.app/Hack MHS II";
+			};
+			name = Release;
+		};
+		BFA54BB61CF0C7A40078A4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hack MHS IIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-IIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hack MHS II";
+			};
+			name = Debug;
+		};
+		BFA54BB71CF0C7A40078A4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hack MHS IIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lamp.Hack-MHS-IIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hack MHS II";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA54B821CF0C7A40078A4D3 /* Build configuration list for PBXProject "Hack MHS II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA54BAD1CF0C7A40078A4D3 /* Debug */,
+				BFA54BAE1CF0C7A40078A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA54BAF1CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA54BB01CF0C7A40078A4D3 /* Debug */,
+				BFA54BB11CF0C7A40078A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA54BB21CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA54BB31CF0C7A40078A4D3 /* Debug */,
+				BFA54BB41CF0C7A40078A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA54BB51CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA54BB61CF0C7A40078A4D3 /* Debug */,
+				BFA54BB71CF0C7A40078A4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA54B7F1CF0C7A40078A4D3 /* Project object */;
+}

@@ -8,12 +8,71 @@
 
 import UIKit
 
+var goalLoss = 0
+var goalDays = 0
+
 class GoalViewController: UIViewController {
+    
+    
+    @IBOutlet weak var userWeight: UITextField!
+    
+    @IBOutlet weak var userGoalWeight: UITextField!
+    
+    @IBOutlet weak var goalDay: UITextField!
+    
+    
+    
+    
+    @IBOutlet weak var aerobicDanceSwitch: UISwitch!
+    
+    @IBOutlet weak var runningSwitch: UISwitch!
+    
+    @IBOutlet weak var joggingSwitch: UISwitch!
+    
+    @IBOutlet weak var walkingSwitch: UISwitch!
+    
+    @IBOutlet weak var hikingSwitch: UISwitch!
+    
+    
+    
+    
+    
+    @IBAction func submit(sender: AnyObject) {
+        
+        if userWeight.text != nil && userGoalWeight.text != nil {
+        
+        goalLoss = Int(userWeight.text!)! - Int(userGoalWeight.text!)!
+        
+        print(aerobicDanceSwitch)
+            
+            
+            
+            
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        aerobicDanceSwitch.setOn(false, animated: true)
+        runningSwitch.setOn(false, animated: true)
+        joggingSwitch.setOn(false, animated: true)
+        walkingSwitch.setOn(false, animated: true)
+        hikingSwitch.setOn(false, animated: true)
+        
+        
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +81,5 @@ class GoalViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

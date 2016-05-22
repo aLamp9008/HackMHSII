@@ -9,7 +9,7 @@
 
 import UIKit
 
-var totalCal = 
+var totalCal = 0
 
 
 class MealTableViewController: UITableViewController {

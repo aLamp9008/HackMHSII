@@ -21,6 +21,7 @@
 		BFA54BCF1CF130C00078A4D3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BCC1CF130C00078A4D3 /* Meal.swift */; };
 		BFA54BD11CF1314F0078A4D3 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BD01CF1314F0078A4D3 /* GoalViewController.swift */; };
 		BFA54BD31CF1317A0078A4D3 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BD21CF1317A0078A4D3 /* RecommendationViewController.swift */; };
+		BFA54BD71CF15D920078A4D3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BD61CF15D920078A4D3 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BFA54BCC1CF130C00078A4D3 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		BFA54BD01CF1314F0078A4D3 /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
 		BFA54BD21CF1317A0078A4D3 /* RecommendationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		BFA54BD61CF15D920078A4D3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				BFA54BCC1CF130C00078A4D3 /* Meal.swift */,
 				BFA54BC61CF130B40078A4D3 /* MealTableViewController.swift */,
 				BFA54BC71CF130B40078A4D3 /* MealTableViewCell.swift */,
+				BFA54BD61CF15D920078A4D3 /* UIColorExtension.swift */,
 				BFA54B911CF0C7A40078A4D3 /* Assets.xcassets */,
 				BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */,
 				BFA54B961CF0C7A40078A4D3 /* Info.plist */,
@@ -284,6 +287,7 @@
 				BFA54B8D1CF0C7A40078A4D3 /* ViewController.swift in Sources */,
 				BFA54BC81CF130B40078A4D3 /* MealTableViewController.swift in Sources */,
 				BFA54BD11CF1314F0078A4D3 /* GoalViewController.swift in Sources */,
+				BFA54BD71CF15D920078A4D3 /* UIColorExtension.swift in Sources */,
 				BFA54BCE1CF130C00078A4D3 /* RatingControl.swift in Sources */,
 				BFA54B8B1CF0C7A40078A4D3 /* AppDelegate.swift in Sources */,
 			);

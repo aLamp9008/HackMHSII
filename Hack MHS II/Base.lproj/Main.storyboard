@@ -19,17 +19,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jP0-po-qhA">
-                                <rect key="frame" x="140" y="128" width="40" height="30"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxX-LV-uM0">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="luT-yg-AFZ"/>
-                                    <constraint firstAttribute="height" constant="30" id="vKW-OD-Paj"/>
+                                    <constraint firstAttribute="height" constant="44" id="IFG-sJ-UN0"/>
                                 </constraints>
-                                <state key="normal" title="Goals"/>
-                                <connections>
-                                    <segue destination="c4W-0p-pVx" kind="show" id="f6w-SR-ZoB"/>
-                                </connections>
-                            </button>
+                                <items>
+                                    <navigationItem title="Calorie Watch" id="dWi-ly-S5p"/>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYQ-0X-06e">
                                 <rect key="frame" x="124" y="269" width="72" height="30"/>
                                 <state key="normal" title="Daily Stuff"/>
@@ -60,25 +58,24 @@
                                     <segue destination="VoQ-pU-ksj" kind="show" id="m57-ul-cWH"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxX-LV-uM0">
-                                <rect key="frame" x="-4" y="0.0" width="328" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liO-ek-KrO">
+                                <rect key="frame" x="-168" y="-49" width="656" height="408"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="IFG-sJ-UN0"/>
+                                    <constraint firstAttribute="width" constant="656" id="Azc-vE-eAT"/>
+                                    <constraint firstAttribute="height" constant="408" id="Eun-Hk-Zpc"/>
                                 </constraints>
-                                <items>
-                                    <navigationItem title="Calorie Watch" id="dWi-ly-S5p"/>
-                                </items>
-                            </navigationBar>
+                                <state key="normal" title="Button" image="goalButton"/>
+                            </button>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="liO-ek-KrO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="71r-EQ-imp"/>
                             <constraint firstItem="gxX-LV-uM0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="BXv-wL-rOu"/>
+                            <constraint firstItem="liO-ek-KrO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-49" id="DEq-e8-4C9"/>
                             <constraint firstItem="gxX-LV-uM0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="LE1-67-Aki"/>
-                            <constraint firstItem="jP0-po-qhA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QMz-3h-mJZ"/>
                             <constraint firstItem="AYQ-0X-06e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SNJ-Lq-Mae"/>
                             <constraint firstItem="AYQ-0X-06e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tgd-0n-YvK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gxX-LV-uM0" secondAttribute="trailing" constant="-20" id="ZC6-ft-vna"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sk9-mm-GcT" secondAttribute="bottom" constant="84" id="p9e-TW-pVw"/>
-                            <constraint firstItem="jP0-po-qhA" firstAttribute="top" secondItem="gxX-LV-uM0" secondAttribute="bottom" constant="84" id="xi5-Fx-igy"/>
                             <constraint firstItem="Sk9-mm-GcT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z4i-SA-BGC"/>
                             <constraint firstItem="Sk9-mm-GcT" firstAttribute="top" secondItem="AYQ-0X-06e" secondAttribute="bottom" constant="155" id="z5z-Zm-dr0"/>
                         </constraints>
@@ -709,6 +706,7 @@
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
         <image name="defaultPhoto-1" width="400" height="288"/>
+        <image name="goalButton" width="900" height="600"/>
         <image name="submit-button-blue-hi" width="600" height="198"/>
     </resources>
     <inferredMetricsTieBreakers>

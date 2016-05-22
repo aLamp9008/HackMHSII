@@ -1,5 +1,5 @@
 //
-//  GoalsController.swift
+//  RecommendationViewController.swift
 //  Hack MHS II
 //
 //  Created by alden lamp on 5/21/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GoalsController: UIViewController {
+class RecommendationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

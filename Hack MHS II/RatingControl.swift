@@ -9,6 +9,9 @@
 
 import UIKit
 
+var calStars = 0
+
+
 class RatingControl: UIView {
     // MARK: Properties
     
@@ -28,10 +31,9 @@ class RatingControl: UIView {
         
         let filledStarImage = UIImage(named: "filledStar")
         let emptyStarImage = UIImage(named: "emptyStar")
-        
+
         for _ in 0..<5 {
             let button = UIButton()
-            
             button.setImage(emptyStarImage, forState: .Normal)
             button.setImage(filledStarImage, forState: .Selected)
             button.setImage(filledStarImage, forState: [.Highlighted, .Selected])
@@ -42,6 +44,7 @@ class RatingControl: UIView {
             ratingButtons += [button]
             
             addSubview(button)
+            
         }
     }
     
@@ -69,7 +72,7 @@ class RatingControl: UIView {
     
     func ratingButtonTapped(sender: UIButton) {
         rating = ratingButtons.indexOf(sender)! + 1
-        
+        calStars = ratingButtons.indexOf(sender)! + 1
         updateButtonSelectionStates()
     }
     

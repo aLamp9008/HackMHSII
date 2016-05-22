@@ -9,8 +9,11 @@
 
 import UIKit
 
+
+
 class MealTableViewController: UITableViewController {
     // MARK: Properties
+    var starArray = Array<Int>()
     
     var meals = [Meal]()
 
@@ -27,6 +30,9 @@ class MealTableViewController: UITableViewController {
             // Load the sample data.
             loadSampleMeals()
         }
+        
+        
+        
     }
     
     func loadSampleMeals() {
@@ -133,6 +139,8 @@ class MealTableViewController: UITableViewController {
             }
             // Save the meals.
             saveMeals()
+            
+            
         }
     }
     
@@ -140,9 +148,17 @@ class MealTableViewController: UITableViewController {
     
     func saveMeals() {
         let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(meals, toFile: Meal.ArchiveURL.path!)
+        print(calStars)
+        
+        starArray.append(calStars)
+        
+        
+        
+        
         if !isSuccessfulSave {
             print("Failed to save meals...")
         }
+        
     }
     
     func loadMeals() -> [Meal]? {

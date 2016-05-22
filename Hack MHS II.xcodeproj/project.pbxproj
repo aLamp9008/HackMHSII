@@ -14,6 +14,13 @@
 		BFA54B951CF0C7A40078A4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */; };
 		BFA54BA01CF0C7A40078A4D3 /* Hack_MHS_IITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54B9F1CF0C7A40078A4D3 /* Hack_MHS_IITests.swift */; };
 		BFA54BAB1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BAA1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift */; };
+		BFA54BC81CF130B40078A4D3 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BC61CF130B40078A4D3 /* MealTableViewController.swift */; };
+		BFA54BC91CF130B40078A4D3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BC71CF130B40078A4D3 /* MealTableViewCell.swift */; };
+		BFA54BCD1CF130C00078A4D3 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BCA1CF130C00078A4D3 /* MealViewController.swift */; };
+		BFA54BCE1CF130C00078A4D3 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BCB1CF130C00078A4D3 /* RatingControl.swift */; };
+		BFA54BCF1CF130C00078A4D3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BCC1CF130C00078A4D3 /* Meal.swift */; };
+		BFA54BD11CF1314F0078A4D3 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BD01CF1314F0078A4D3 /* GoalViewController.swift */; };
+		BFA54BD31CF1317A0078A4D3 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA54BD21CF1317A0078A4D3 /* RecommendationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		BFA54BA61CF0C7A40078A4D3 /* Hack MHS IIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack MHS IIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA54BAA1CF0C7A40078A4D3 /* Hack_MHS_IIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_MHS_IIUITests.swift; sourceTree = "<group>"; };
 		BFA54BAC1CF0C7A40078A4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA54BC61CF130B40078A4D3 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		BFA54BC71CF130B40078A4D3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		BFA54BCA1CF130C00078A4D3 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		BFA54BCB1CF130C00078A4D3 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		BFA54BCC1CF130C00078A4D3 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BFA54BD01CF1314F0078A4D3 /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		BFA54BD21CF1317A0078A4D3 /* RecommendationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				BFA54B8A1CF0C7A40078A4D3 /* AppDelegate.swift */,
-				BFA54B8C1CF0C7A40078A4D3 /* ViewController.swift */,
 				BFA54B8E1CF0C7A40078A4D3 /* Main.storyboard */,
+				BFA54BD21CF1317A0078A4D3 /* RecommendationViewController.swift */,
+				BFA54B8C1CF0C7A40078A4D3 /* ViewController.swift */,
+				BFA54BD01CF1314F0078A4D3 /* GoalViewController.swift */,
+				BFA54BCA1CF130C00078A4D3 /* MealViewController.swift */,
+				BFA54BCB1CF130C00078A4D3 /* RatingControl.swift */,
+				BFA54BCC1CF130C00078A4D3 /* Meal.swift */,
+				BFA54BC61CF130B40078A4D3 /* MealTableViewController.swift */,
+				BFA54BC71CF130B40078A4D3 /* MealTableViewCell.swift */,
 				BFA54B911CF0C7A40078A4D3 /* Assets.xcassets */,
 				BFA54B931CF0C7A40078A4D3 /* LaunchScreen.storyboard */,
 				BFA54B961CF0C7A40078A4D3 /* Info.plist */,
@@ -256,7 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA54BC91CF130B40078A4D3 /* MealTableViewCell.swift in Sources */,
+				BFA54BCD1CF130C00078A4D3 /* MealViewController.swift in Sources */,
+				BFA54BCF1CF130C00078A4D3 /* Meal.swift in Sources */,
+				BFA54BD31CF1317A0078A4D3 /* RecommendationViewController.swift in Sources */,
 				BFA54B8D1CF0C7A40078A4D3 /* ViewController.swift in Sources */,
+				BFA54BC81CF130B40078A4D3 /* MealTableViewController.swift in Sources */,
+				BFA54BD11CF1314F0078A4D3 /* GoalViewController.swift in Sources */,
+				BFA54BCE1CF130C00078A4D3 /* RatingControl.swift in Sources */,
 				BFA54B8B1CF0C7A40078A4D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +510,7 @@
 				BFA54BB11CF0C7A40078A4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA54BB21CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				BFA54BB41CF0C7A40078A4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA54BB51CF0C7A40078A4D3 /* Build configuration list for PBXNativeTarget "Hack MHS IIUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				BFA54BB71CF0C7A40078A4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
